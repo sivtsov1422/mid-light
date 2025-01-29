@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Фонарь ML-120",
+      "material": "Сталь ГОСТ 1050-2013",
+      "weight": 7,
+      "price": 14.999,
+      "height": 0.45,
+      "potreb": 12,
+      "napryag": 220,
+      "count": 12,
+      "angle": 120,
+      "paint": "порошковая краска Short Post",
+      "lighting": "Светодиодный прожектор M1 12W 220V IP66 на светодиодах OSRAM",
+      "description": "Отличный вариант столба, преимущественно для холдного климата, над которым никтоне будет смеятся, потому что на улице холодно",
+      "moreDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, odio sint! Nihil ipsum nisi quaerat soluta, doloribus tenetur architecto minus adipisci tempora quo doloremque veniam ad libero molestias officia provident.",
+      "imgUrl": "/src/imgs/pictures/short.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Фонарь ML-90",
+      "material": "Сталь ГОСТ 1050-2013",
+      "weight": 17,
+      "price": 49.999,
+      "height": 2.5,
+      "potreb": 30,
+      "napryag": 220,
+      "count": 30,
+      "angle": 90,
+      "paint": "порошковая краска Short Post",
+      "lighting": "Светодиодный сегмент М1 L250 30W IP66 на светодиодах OSRAM",
+      "description": "Красивый, ровный, длинный, твердый - что еще нужно? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quasi.",
+      "moreDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, odio sint! Nihil ipsum nisi quaerat soluta, doloribus tenetur architecto minus adipisci tempora quo doloremque veniam ad libero molestias officia provident.",
+      "imgUrl": "/src/imgs/pictures/long.jpg"
+    }
+  ]
+}

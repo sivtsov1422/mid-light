@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.loopContainer {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.loop {
+  font-family: "Roboto", serif;
+  padding: 70px 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  /* border: 2px solid black; */
+  /* background-image: url(../../../../imgs/pictures/abstract3.jpg); */
+  /* background-size: cover; */
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    338deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 139, 238, 1) 0%,
+    rgba(205, 219, 255, 1) 100%
+  ); */
+}
+
+.span_a {
+  color: #2b2b2b;
+  position: absolute;
+  font-size: 50px;
+  left: 307px;
+  bottom: 10px;
+  transform: rotate(30deg);
+  font-weight: 900;
+}
+.span_b {
+  color: #2b2b2b;
+  position: absolute;
+  font-size: 50px;
+  left: 505px;
+  top: 10px;
+  transform: rotate(-30deg);
+  font-weight: 900;
+}
+.span_c {
+  color: #2b2b2b;
+  position: absolute;
+  font-size: 50px;
+  left: 872px;
+  bottom: 10px;
+  transform: rotate(30deg);
+  font-weight: 900;
+}
+.span_d {
+  color: #2b2b2b;
+  position: absolute;
+  font-size: 50px;
+  right: 611px;
+  top: 10px;
+  transform: rotate(-30deg);
+  font-weight: 900;
+}
+.span_e {
+  color: #2b2b2b;
+  position: absolute;
+  font-size: 50px;
+  right: 270px;
+  bottom: 10px;
+  transform: rotate(30deg);
+  font-weight: 900;
+}

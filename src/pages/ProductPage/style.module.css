@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.fullContainer {
+  font-family: "Roboto", serif;
+  background: #e2e2e2;
+  width: 1200px;
+  margin: 200px auto;
+  height: 100vh;
+}
+
+.productImg {
+  border-radius: 10px;
+  border: 3px solid #2f2d3d;
+  width: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* text-align: center; */
+  max-width: 500px;
+  font-size: 20px;
+  position: relative;
+}
+
+.datail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.p {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.character {
+  font-weight: 700;
+}
+
+
+.btnOffer {
+  font-family: "Roboto", serif;
+  padding: 10px 15px;
+  background: transparent;
+  color: #2f2d3d;
+  border: 3px solid rgb(204 204 204);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btnOffer:hover {
+    background: #bbfab4;
+    /* color: #eaeaea; */
+    border: 3px solid #75bd73;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.priceContainer {
+  display: flex;
+  position: absolute;
+  font-size: 27px;
+  font-weight: 500;
+  bottom: 95px;
+  right: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputContainer span {
+  font-size: 15px;
+}
+
+.inputContainer input {
+  padding: 8px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  opacity: 70%;
+}
+
+.countContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.countContainer input {
+  padding: 8px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  opacity: 70%;
+  max-width: 50px;
+}
+
+.radioContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 15px;
+}
+
+.radioContainer div {
+  opacity: 80%;
+  display: flex;
+  gap: 5px;
+}
+
+.radioContainer label {
+  cursor: pointer;
+}
+
+.radioContainer input {
+  margin-left: 0.5rem;
+}
+
+.sendBtn {
+  font-family: "Roboto", serif;
+  padding: 10px 15px;
+  background: transparent;
+  color: #2f2d3d;
+  border: 3px solid rgb(204 204 204);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
+  background: #bbfab4;
+  /* color: #eaeaea; */
+  border: 3px solid #75bd73;
+}
+
+.radioContainer input {
+  appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: rgb(204 204 204);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.radioContainer input:checked {
+  background: #bbfab4;
+}
+
+.quote {
+  font-size: 11px;
+  opacity: 50%;
+  text-decoration: underline;
+}
