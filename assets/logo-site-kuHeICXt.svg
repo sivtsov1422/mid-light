@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25.4mm" height="25.4mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2540 2540"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Gill Sans MT">
+		<font-face-src>
+			<font-face-name name="Gill Sans MT"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="D" horiz-adv-x="749" d="M74.9997 0l0 682.001 230.338 0c92.9996,0 166.499,-13.996 220.664,-41.8345 53.9998,-27.8385 97.1689,-68.8344 128.999,-122.834 31.9959,-54.1651 47.9998,-113.161 47.9998,-176.999 0,-45.6612 -8.83461,-89.3382 -26.3385,-130.996 -17.6574,-41.8345 -42.8266,-78.5076 -75.3304,-110.007 -33.3306,-32.6692 -71.9997,-57.3305 -115.996,-73.8304 -25.6653,-10.1693 -49.3345,-16.996 -70.8422,-20.3385 -21.496,-3.49605 -62.6572,-5.1614 -123.33,-5.1614l-216.165 0zm220.334 595.002l-122.338 0 0 -508.002 125.173 0c49.0037,0 86.9997,3.3307 114,10.0039 27.1652,6.66139 49.6652,15.1653 67.8304,25.4999 17.9999,10.1574 34.6652,22.8306 49.6652,37.8306 48.1652,48.8384 72.3422,110.669 72.3422,185.338 0,73.3225 -24.8385,133.157 -74.3383,179.326 -18.3306,17.3385 -39.1652,31.4999 -62.8344,42.6731 -23.6692,10.996 -46.1691,18.3306 -67.3344,21.992 -21.1653,3.50786 -55.1691,5.33856 -102.165,5.33856z"/>
+   <glyph unicode="I" horiz-adv-x="250" d="M76.0036 682.001l97.9957 0 0 -682.001 -97.9957 0 0 682.001z"/>
+   <glyph unicode="M" horiz-adv-x="780" d="M616.663 682.001l92.3382 0 0 -682.001 -97.9957 0 0 530.667 -209.668 -263.668 -18.1653 0 -212.172 263.668 0 -530.667 -97.9957 0 0 682.001 93.9918 0 225.507 -280.168 224.161 280.168z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gill Sans MT";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#2B2A29;stroke-width:16.93;stroke-miterlimit:22.9256}
+    .fil2 {fill:#FEFEFE}
+    .fil0 {fill:#444545}
+    .fil1 {fill:url(#id0)}
+    .fnt0 {font-weight:normal;font-size:846.67px;font-family:'Gill Sans MT'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1264.82" y1="2539.8" x2="1232.86" y2="0.2">
+   <stop offset="0" style="stop-opacity:1; stop-color:#2B2A29"/>
+   <stop offset="0.588235" style="stop-opacity:1; stop-color:#949493"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFEFE"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="-25.4" width="2548.47" height="2540"/>
+  <polygon class="fil1" points="1244.94,220.13 745.23,1159.93 245.53,2099.73 1268.39,2099.73 2291.25,2099.73 1768.09,1159.93 "/>
+  <text x="492.41" y="1567.19"  class="fil2 fnt0">MID</text>
+ </g>
+</svg>
