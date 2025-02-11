@@ -5,7 +5,7 @@ import Layout from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "mid-light",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
