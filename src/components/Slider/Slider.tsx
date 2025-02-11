@@ -9,7 +9,7 @@ const FADE_DURATION = 300;
 const Slider = ({ imgs }: SliderProps) => {
   const [slide, setSlide] = useState<number>(0);
   const [fadeState, setFadeState] = useState<"fade-in" | "fade-out">("fade-in");
-  const [currentTimer, setCurrentTimer] = useState<NodeJS.Timeout>();
+  const [currentTimer, setCurrentTimer] = useState<any>();
 
   const handleClick = (move: number) => {
     const timer = setTimeout(() => {
