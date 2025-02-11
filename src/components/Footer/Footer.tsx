@@ -21,10 +21,10 @@ const Footer = () => {
       </div>
       <div className={styled.footerList}>
         <h3>Товары:</h3>
-        <Link to="/products/1" className={styled.linkProduct}>
+        <Link to="/mid-light/products/1" className={styled.linkProduct}>
           Фонарь ML-120
         </Link>
-        <Link to="/products/2" className={styled.linkProduct}>
+        <Link to="/mid-light/products/2" className={styled.linkProduct}>
           Фонарь ML-90
         </Link>
       </div>

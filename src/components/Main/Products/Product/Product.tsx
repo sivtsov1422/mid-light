@@ -28,7 +28,7 @@ async function getData() {
     <div className={styled.container}>
       {productAll && productAll.map((product: ProductOne) => (
         <div key={product.id}>
-          <Link to={`/products/${product.id}`} className={styled.section} id="Products">
+          <Link to={`/mid-light/products/${product.id}`} className={styled.section} id="Products">
             <img
               src={product.imgUrl}
               alt="shortFlashlight"
