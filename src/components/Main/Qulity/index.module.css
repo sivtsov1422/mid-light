@@ -1,53 +1,74 @@
 .container {
-    font-family: "Roboto", serif;
-    display: flex;
-    flex-direction: column;
-    margin: 80px auto;
-    gap: 40px;
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: calc(var(--index));
+  max-width: calc(var(--index) * 40);
 }
 
 .prop {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    width: 1000px;
-    /* color: rgb(252, 73, 73); */
-    color: #2f2d3d;
-    margin: auto;
-    padding: 20px 40px;
-    gap: 30px;
-    border-bottom: 1px solid rgb(204 204 204);
-    border-top: 1px solid rgb(204 204 204);
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(var(--index) * 0.7);
+  width: 100%;
+  color: #2f2d3d;
+  padding: 20px 40px;
+  gap: calc(var(--index));
+  border-bottom: 1px solid rgb(204 204 204);
+  border-top: 1px solid rgb(204 204 204);
+  cursor: pointer;
 }
 
 .close {
-    display: none;
+  display: none;
 }
 
 .closeContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .arrow {
-    transition: 0.3s ease;
-    width: 30px;
-    opacity: 70%;
+  transition: 0.3s ease;
+  width: calc(var(--index));
+  opacity: 50%;
 }
 .arrowClose {
-    transition: 0.3s ease;
-    width: 30px;
-    transform: rotate(180deg);
-    opacity: 70%;
+  transition: 0.3s ease;
+  width: 30px;
+  transform: rotate(180deg);
+  opacity: 100%;
 }
 
 .open {
-    display: block;
+  display: block;
 }
 
 .propDes {
-    color: rgb(134, 133, 133);
+  color: rgb(134, 133, 133);
 }
 
-
+@media (max-width: 768px) {
+  .container {
+    max-width: calc(var(--index) * 30);
+  }
+  .prop {
+    font-size: calc(var(--index) * 0.8);
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    max-width: calc(var(--index) * 20);
+  }
+  .prop {
+    font-size: calc(var(--index) * 0.67);
+  }
+  .arrowClose {
+    transition: 0.3s ease;
+    width: calc(var(--index) * 1.5);
+    transform: rotate(180deg);
+    opacity: 100%;
+  }
+}

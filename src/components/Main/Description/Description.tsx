@@ -4,7 +4,6 @@ import image from "../../../imgs/pictures/photo_2024-12-26_21-32-51.jpg";
 import EventLoop from "./EventLoop/EventLoop";
 
 const Description = () => {
-
   return (
     <div className={styled.container}>
       <section className={styled.section}>
@@ -24,11 +23,11 @@ const Description = () => {
         </div>
 
         <div
+          className={styled.sliderContainer}
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "50vh",
           }}
         >
           <Slider

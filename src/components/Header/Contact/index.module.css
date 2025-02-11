@@ -2,22 +2,19 @@
 
 .container {
   font-family: "Roboto", serif;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  color: rgb(0, 0, 0);
 }
 
 
 .socialContainer {
   display: flex;
-  gap: 45px;
+  gap: calc(var(--index) * 1.8);
+  align-items: center;
 }
 
 .socialContainer a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 20px;
+  font-size: calc(var(--index) * .7);
   position: relative;
 }
 
@@ -36,4 +33,16 @@
 
 .socialContainer a:hover:before {
   transform: scaleX(1);
+}
+
+@media (max-width: 768px) {
+  .socialContainer a {
+    font-size: calc(var(--index) * .6);
+    font-weight: 600;
+  }
+}
+@media (max-width: 430px) {
+  .socialContainer {
+    align-items: center;
+  }
 }

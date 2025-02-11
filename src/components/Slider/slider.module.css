@@ -1,14 +1,4 @@
 .slider {
-  /* background: #2b2b2b; */
-  /* background-image: url(../../imgs/pictures/abstract2.jpg);
-  background-size: cover; */
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    338deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(99, 139, 238, 1) 0%,
-    rgba(255, 255, 255, 1) 55%
-  ); */
   background: rgb(2, 0, 36);
   background: linear-gradient(
     317deg,
@@ -16,8 +6,8 @@
     rgba(140, 140, 140, 1) 0%,
     rgba(0, 0, 0, 1) 89%
   );
-  max-width: 1000px;
-  height: 500px;
+  max-width: 100%;
+  height: calc(var(--index) * 17.1);
   width: 100%;
   position: relative;
   border-radius: 43px;
@@ -40,7 +30,7 @@
 }
 
 .right {
-  width: 500px;
+  width: calc(var(--index) * 16);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -49,7 +39,8 @@
 .text {
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 27px;
+  /* font-size: 27px; */
+  font-size: calc(var(--index) * .9);
   line-height: 170%;
   display: flex;
   align-items: center;
@@ -59,8 +50,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: calc(var(--index) * 1.7);
+  height: calc(var(--index) * 1.7);
   border-radius: 50%;
   background: white;
   position: absolute;
@@ -75,17 +66,17 @@
 }
 
 .arrowIn {
-  width: 20px;
-  height: 20px;
+  width: calc(var(--index) * .8);
+  height: calc(var(--index) * .8);
 }
 
 .arrowLeft {
-  left: 24px;
+  left: calc(var(--index));
   top: calc(50% - 20px);
   transform: rotate(90deg);
 }
 .arrowRight {
-  right: 24px;
+  right: calc(var(--index));
   top: calc(50% - 20px);
   transform: rotate(270deg);
 }
@@ -96,4 +87,41 @@
 
 .fade-in {
   opacity: 1;
+}
+
+@media (max-width: 1100px) {
+  .right {
+    width: calc(var(--index) * 11);
+  }
+  .left {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex: 1;
+    padding: 0 30px;
+  }
+  .text {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: calc(var(--index) * .7);
+  }
+}
+
+@media (max-width: 768px) {
+  .right {
+    width: calc(var(--index) * 20);
+  }
+  .text {
+    font-weight: 600;
+    font-size: calc(var(--index) * .9);
+  }
+}
+@media (max-width: 430px) {
+  .right {
+    width: calc(var(--index) * 15);
+  }
+  .text {
+    font-weight: 600;
+    font-size: calc(var(--index) * .9);
+  }
 }

@@ -10,9 +10,9 @@
 .footerList {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: calc(var(--index) * .5);
   opacity: 80%;
-  font-size: 17px;
+  font-size: calc(var(--index) * .6);
 }
 
 .logo {

@@ -13,7 +13,6 @@ const EventLoop = () => {
             alt="add-bookmark"
           />
         </div>
-        {/* <span className={styled.span_a}>/</span> */}
         <div className={styled.loop}>
           <span>Цена</span>
           <img
@@ -23,7 +22,6 @@ const EventLoop = () => {
             alt="price-tag-usd--v1"
           />
         </div>
-        {/* <span className={styled.span_b}>\</span> */}
         <div className={styled.loop}>
           <span>Индивидуальность</span>
           <img
@@ -33,7 +31,6 @@ const EventLoop = () => {
             alt="people-skin-type-7"
           />
         </div>
-        {/* <span className={styled.span_c}>/</span> */}
         <div className={styled.loop}>
           <span>Качество</span>
           <img
@@ -43,7 +40,6 @@ const EventLoop = () => {
             alt="good-quality"
           />
         </div>
-        {/* <span className={styled.span_d}>\</span> */}
         <div className={styled.loop}>
           <span>Технологичность</span>
           <img
@@ -53,7 +49,6 @@ const EventLoop = () => {
             alt="electronics"
           />
         </div>
-        {/* <span className={styled.span_e}>/</span> */}
         <div className={styled.loop}>
           <span>Надежность</span>
           <img

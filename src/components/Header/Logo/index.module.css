@@ -4,8 +4,8 @@
   font-family: "Roboto", serif;
   display: flex;
   color: rgb(0, 0, 0);
-  font-size: 50px;
-  gap: 10px;
+  font-size: calc(var(--index) * 1.9);
+  gap: calc(var(--index) * .7);
   font-weight: 200;
   transition: 0.5s;
   text-decoration: none;
@@ -17,3 +17,9 @@
 }
 
 /* box-shadow: 0 0 100px 10px white; */
+@media (max-width: 768px) {
+  .container {
+    font-size: calc(var(--index) * 1.6);
+    gap: calc(var(--index) * .1);
+  }
+}

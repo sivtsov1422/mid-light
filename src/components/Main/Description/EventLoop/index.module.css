@@ -2,75 +2,46 @@
 
 .loopContainer {
   display: flex;
-  gap: 20px;
+  gap: calc(var(--index) * 5);
   position: relative;
+  max-width: 100%;
 }
 
 .loop {
+  /* padding: 50px 0; */
   font-family: "Roboto", serif;
-  padding: 70px 60px;
-  border-radius: 30px;
-  font-size: 25px;
+  font-size: calc(var(--index) * .8);
   color: rgb(0, 0, 0);
   background: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  /* border: 2px solid black; */
-  /* background-image: url(../../../../imgs/pictures/abstract3.jpg); */
-  /* background-size: cover; */
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    338deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(99, 139, 238, 1) 0%,
-    rgba(205, 219, 255, 1) 100%
-  ); */
+  gap: calc(var(--index));
 }
 
-.span_a {
-  color: #2b2b2b;
-  position: absolute;
-  font-size: 50px;
-  left: 307px;
-  bottom: 10px;
-  transform: rotate(30deg);
-  font-weight: 900;
+
+@media (max-width: 1100px) {
+  .loopContainer {
+    gap: calc(var(--index) * 3)
+  }
 }
-.span_b {
-  color: #2b2b2b;
-  position: absolute;
-  font-size: 50px;
-  left: 505px;
-  top: 10px;
-  transform: rotate(-30deg);
-  font-weight: 900;
+@media (max-width: 768px) {
+  .loopContainer {
+    gap: calc(var(--index))
+  }
+  .loop img {
+    max-width: calc(var(--index) * 2.5);
+    max-height: calc(var(--index) * 2.5);
+  }
 }
-.span_c {
-  color: #2b2b2b;
-  position: absolute;
-  font-size: 50px;
-  left: 872px;
-  bottom: 10px;
-  transform: rotate(30deg);
-  font-weight: 900;
-}
-.span_d {
-  color: #2b2b2b;
-  position: absolute;
-  font-size: 50px;
-  right: 611px;
-  top: 10px;
-  transform: rotate(-30deg);
-  font-weight: 900;
-}
-.span_e {
-  color: #2b2b2b;
-  position: absolute;
-  font-size: 50px;
-  right: 270px;
-  bottom: 10px;
-  transform: rotate(30deg);
-  font-weight: 900;
+@media (max-width: 768px) {
+  .loopContainer {
+    display: grid;
+    grid-template-columns: repeat(3, calc(var(--index) * 5));
+    gap: calc(var(--index) * 4);
+  }
+  .loop img {
+    max-width: calc(var(--index) * 2.5);
+    max-height: calc(var(--index) * 2.5);
+  }
 }

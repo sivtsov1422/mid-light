@@ -10,29 +10,6 @@ const ProductPage = () => {
   const params = useParams();
   const [productData, setProductData] = useState<ProductOne | null>(null);
 
-  // const onSubmit = async (event: any) => {
-  //   event.preventDefault();
-  //   const formData = new FormData(event.target);
-
-  //   formData.append("access_key", "301ad63f-d43c-42bd-9f99-50ccef055dce");
-
-  //   const object = Object.fromEntries(formData);
-  //   const json = JSON.stringify(object);
-
-  //   const res = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //     body: json,
-  //   }).then((res) => res.json());
-
-  //   if (res.success) {
-  //     console.log("Success", res);
-  //   }
-  // };
-
   async function getData() {
     try {
       const req = await fetch(
@@ -95,7 +72,7 @@ const ProductPage = () => {
               </p>
             </div>
             <div className={styled.priceContainer}>
-              <img src={price} />
+              <img className={styled.priceIcon} src={price} />
               <p>{productData.price}р.</p>
             </div>
             <button
