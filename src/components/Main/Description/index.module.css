@@ -185,3 +185,16 @@
     width: calc(var(--index) * 5);
   }
 }
+
+@media (max-width: 380px) {
+  .btn {
+    font-size: calc(var(--index) * 0.6);
+    padding: 10px 32px;
+    width: calc(var(--index) * 3);
+  }
+  .btn2 {
+    font-size: calc(var(--index) * 0.6);
+    padding: 8px 32px;
+    width: calc(var(--index) * 3);
+  }
+}
