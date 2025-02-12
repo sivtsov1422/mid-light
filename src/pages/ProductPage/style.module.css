@@ -31,7 +31,7 @@
   justify-content: space-around;
   /* text-align: center; */
   max-width: calc(var(--index) * 16);
-  font-size: calc(var(--index) * .7);
+  font-size: calc(var(--index) * 0.7);
   position: relative;
 }
 
@@ -43,7 +43,7 @@
 
 .p {
   display: flex;
-  gap: calc(var(--index) * .3);
+  gap: calc(var(--index) * 0.3);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -53,7 +53,6 @@
 .character {
   font-weight: 700;
 }
-
 
 .btnOffer {
   font-family: "Roboto", serif;
@@ -66,13 +65,13 @@
 }
 
 .btnOffer:hover {
-    background: #bbfab4;
-    /* color: #eaeaea; */
-    border: 3px solid #75bd73;
+  background: #bbfab4;
+  /* color: #eaeaea; */
+  border: 3px solid #75bd73;
 }
 
 .main h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .priceContainer {
@@ -87,17 +86,17 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--index) * .6);
+  gap: calc(var(--index) * 0.6);
 }
 
 .inputContainer {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--index) * .2);
+  gap: calc(var(--index) * 0.2);
 }
 
 .inputContainer span {
-  font-size: calc(var(--index) * .5);
+  font-size: calc(var(--index) * 0.5);
 }
 
 .inputContainer input {
@@ -111,7 +110,7 @@
 .countContainer {
   display: flex;
   flex-direction: column;
-  font-size: calc(var(--index) * .5);
+  font-size: calc(var(--index) * 0.5);
 }
 
 .countContainer input {
@@ -126,14 +125,14 @@
 .radioContainer {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--index) * .5);
-  font-size: calc(var(--index) * .5);
+  gap: calc(var(--index) * 0.5);
+  font-size: calc(var(--index) * 0.5);
 }
 
 .radioContainer div {
   opacity: 80%;
   display: flex;
-  gap: calc(var(--index) * .3);
+  gap: calc(var(--index) * 0.3);
 }
 
 .radioContainer label {
@@ -141,7 +140,7 @@
 }
 
 .radioContainer input {
-  margin-left: calc(var(--index) * .5);
+  margin-left: calc(var(--index) * 0.5);
 }
 
 .sendBtn {
@@ -162,8 +161,8 @@
 
 .radioContainer input {
   appearance: none;
-  width: calc(var(--index) * .7);
-  height: calc(var(--index) * .7);
+  width: calc(var(--index) * 0.7);
+  height: calc(var(--index) * 0.7);
   background: rgb(204 204 204);
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -174,11 +173,86 @@
 }
 
 .quote {
-  font-size: calc(var(--index) * .38);
+  font-size: calc(var(--index) * 0.38);
   opacity: 50%;
   text-decoration: underline;
 }
 
 .priceIcon {
   width: calc(var(--index));
+}
+
+@media (max-width: 768px) {
+  .datail {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main {
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    max-width: calc(var(--index) * 16);
+    font-size: calc(var(--index) * 0.7);
+  }
+  .container {
+    align-items: center;
+    gap: calc(var(--index) * 2);
+  }
+  .priceContainer {
+    display: flex;
+    position: static;
+    align-items: center;
+    font-size: calc(var(--index));
+    font-weight: 500;
+    /* bottom: calc(var(--index) * 3.3); */
+    /* right: 0; */
+  }
+  .fullContainer {
+    width: calc(var(--index) * 33);
+    margin: 100px auto;
+    height: calc(var(--index) * 35);
+  }
+}
+
+@media (max-width: 486px) {
+  .fullContainer {
+    width: calc(var(--index) * 27);
+    margin: 70px auto;
+    height: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .datail {
+    display: grid;
+    grid-template-columns: repeat(2, calc(var(--index) * 8));
+  }
+  .inputContainer span {
+    font-size: calc(var(--index));
+    text-align: start;
+  }
+
+  .radioContainer {
+    font-size: calc(var(--index));
+    text-align: start;
+  }
+  .radioContainer input {
+    width: calc(var(--index));
+    height: calc(var(--index));
+  }
+  .radioContainer div {
+    align-items: center;
+  }
+
+  .countContainer {
+    font-size: calc(var(--index));
+    text-align: start;
+  }
+  .countContainer input {
+    padding: 5px 7px;
+    max-width: calc(var(--index));
+    font-size: calc(var(--index) * .9);
+  }
+  .quote {
+    font-size: calc(var(--index) * 0.6);
+  }
 }

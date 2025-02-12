@@ -128,7 +128,7 @@ const ProductPage = () => {
                   />
                 </div>
                 <div className={styled.radioContainer}>
-                  <span>Какой товар вас интересует</span>
+                  <span>Какой товар вас интересует?</span>
                   <div>
                     <input type="radio" name="product" id="ml" value="ML-90" />
                     <label htmlFor="90">ML-90</label>
@@ -143,7 +143,7 @@ const ProductPage = () => {
                   </div>
                 </div>
                 <div className={styled.countContainer}>
-                  <span>Выберите количество</span>
+                  <span>Выберите количество:</span>
                   <input type="number" name="count" placeholder="0" min="0" />
                 </div>
                 <span className={styled.quote}>
